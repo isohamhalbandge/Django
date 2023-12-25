@@ -1,0 +1,50 @@
+Install Django in Separate Environment
+---------------------------------------
+
+install virtual environment wrapper
+------------------------------------
+do `pip install virutalenvwrapper-win` -> this is used to install virtual environment wrappper
+
+Create virtual environment(VE)
+------------------------------
+`mkvirtualenv envname` -> this is used to create virtual environment. It will automatically activate the environment
+
+Active VE
+---------
+`workon envname` -> This is used to activate environment
+
+Install Django in Created VE
+-----------------------------
+`pip install django` -> first activate environment then run the command to install django within active environment.
+You can also specify version `pip install django==2.0`
+
+Django Project
+---------------
+Django project may contain multiple project application, which means a group of application and files is called as Django Project
+An application is part of Django Project 
+
+For e.g. 
+
+School Project 
+    - Registration application
+    - Fees application 
+    - Exam application 
+    - Attendance application 
+    - Result application
+
+Create Django Project 
+----------------------
+Syntax -> django-admin startproject projectname 
+Example -> django-admin startproject schoolproject 
+
+Directory structure
+--------------------
+
+- schoolproject
+    - schoolproject
+        - __init__.py
+        - asgi.py 
+        - settings.py 
+        - urls.py 
+        - wsgi.py 
+    - manage.py
