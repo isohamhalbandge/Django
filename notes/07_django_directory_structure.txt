@@ -1,0 +1,30 @@
+directory structure
+-------------------
+
+project name -> project1  
+
+- project1 (outer project folder/root directory)
+    - project1 (inner project folder/default application created by django)
+        - __init__.py
+        - asgi.py
+        - settings.py 
+        - urls.py
+        - wsgi.py
+    - manage.py
+
+__init__.py -> The folder which contains __init__.py file is considered as python package
+
+wsgi.py -> WSGI (Web Server Gateway Interface) is a specification that describes how a web server communicates with web applications, and how
+web applications can be chained together to process one request. WSGI provided a standard for synchronous Python apps.
+
+asgi.py -> ASGI (Asynchronous Server Gateway Interface) is a spiritual successor to WSGI, intended to provide a standard interface between
+async-capable python web servers, frameworks, and applications. ASGI provides standard for both Asynchronous and synchronous apps.
+
+settings.py -> This file contains all the information or data about the project settings
+e.g. database config information, installed applications, validators etc
+
+urls.py -> this file contains information of url attached with application
+
+manage.py -> it is automatically created in each Django project. It is Django's command line utility also sets the DJANGO_SETTINGS_MODULE
+environment variable so that it points to your project's settings.py file. Generally, when working on a single Django Project, it's easier
+to use manage.py than django-admin
