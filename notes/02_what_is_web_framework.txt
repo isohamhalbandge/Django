@@ -1,0 +1,7 @@
+Web Framework
+-------------
+Web framework or Web Application Framework which helps to build Web applications
+
+Web Frameworks provide tools and libraries to simplify common web development operations. This can include web services, APIs, and other resources.
+
+It help with variety of tasks, from templating and database access to session management and code reuse.
